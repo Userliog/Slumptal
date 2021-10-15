@@ -1,0 +1,13 @@
+Skapa slumptal som variabel “random”
+Skapa variabel “AntalGissningar” = 0
+Skriv “Gissa slump talet:”
+Starta en loop
+Be användaren att gissa slump talet
+Öka variabeln “AntalGissningar” med 1
+Om användarens gissning är lägre än variabeln “random”. 
+Skriv “Gissningen är för låg. Försök igen:” och börja om loopen.
+Arnas
+	Om användarens gissning är högre än variabeln “random”.
+		Skriv “Gissningen är för hög. Försök igen:” och börja om loopen.
+	Arnas 
+Skriv “Grattis! (variabel “random”) är rätt tal, det tog (variabel “AntalGissninagar”).”
